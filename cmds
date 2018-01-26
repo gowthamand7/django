@@ -1,0 +1,12 @@
+python3 -m venv {name of the virtual environment}
+gowthaman@gowthaman:~/PycharmProjects/venv/djangular$ . bin/activate
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular$ pip install django
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular$ django-admin.py startproject djangular
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular/djangular$ python manage.py runserver
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular/djangular$ python manage.py startapp scrumboard
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular/djangular$ python manage.py makemigrations
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular/djangular$ python manage.py migrate
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular/djangular$ python manage.py makemigrations
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular/djangular$ python manage.py migrate
+
+(djangular) gowthaman@gowthaman:~/PycharmProjects/venv/djangular/djangular$ python manage.py createsuperuser
